@@ -10,15 +10,11 @@ function Header() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-  let rbndata = "Contact Us: info@medicaps.ac.in | Call: 079690-24444";
+  let rbndata = "Contact Us: admission@medicaps.ac.in | Call: 7723019450";
   return (
     <>
       <div className="full-header">
-        <div className="ribbon-top">
-          {/* <marquee className="marquee" behavior="scroll" direction="left"> */}
-          {rbndata}
-          {/* </marquee> */}
-        </div>
+        <div className="ribbon-top">{rbndata}</div>
         <div className="my-header">
           <nav
             className="navbar navbar-expand-lg navbar-light bg-light"
